@@ -95,6 +95,60 @@
 //     document.write(i + "k, " + " ");
 // }
 
+// Qno:7 You have an array
+// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array.
+// After searching, prompt the user whether the given item is
+// found in the list or not. Example:
+// ans;
+
+// let saylaniBakery = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let userDesire = prompt("what you wanna eat???");
+
+// let flag = false ;
+// for(let i = 0; i< saylaniBakery.length; i++){
+    // if(saylaniBakery[i] == userDesire)
+        // {document.write(userDesire + " is available");
+            // flag = true;
+        // break;
+    // }
+// }
+// if(flag === false){
+    // document.write("Sorry! "+ userDesire + " is not available")
+// }
+
+//Qno: 8 Write a program to identify the largest number in the
+// given array.
+// A = [24, 53, 78, 91, 12].
+
+// let arr = [24, 53, 78, 91, 12];
+// let largest  = arr[0];
+// console.log(arr[0]);
+// for(let i = 0; i<arr.length; i++){
+    // if(arr[i] > largest){
+        // largest = arr[i];
+    // }
+// }
+// document.write("Array item : " + "24 ", "53 ", "78 ", "91 " ," 12" + "<br />")
+// document.write("The largest number is " + largest);
+
+
+// Qno: 9  Write a program to identify the smallest number in the given array.
+// A = [24, 53, 78, 91, 12].
+// ans;
+// let arr = [24, 53, 78, 91, 12];
+// let smallest = arr[0];
+// console.log(arr[0]);
+// 
+// for(let i = 0; i<arr.length; i++){
+    // if(arr[i] < smallest){
+        // smallest= arr[i];
+    // }
+// }
+// document.write("Array item : " + "24 ", "53 ", "78 ", "91 " ," 12" + "<br />")
+// document.write("The smallest number is " + smallest);
+
 // Qno: 10 Write a program to print multiples of 5 ranging 1 to
 // 100.
 //ans;
